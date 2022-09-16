@@ -60,3 +60,22 @@ To evaluate the trained models, run
 ```angular2html
 python metamask.py --ckpt-path "path to the checkpoint file" --eval-only
 ```
+
+## Citation
+
+If you find this repo useful for your research, please consider citing the paper
+```
+@article{metamask2022jml,
+  author    = {Jiangmeng Li and
+               Wenwen Qiang and
+               Yanan Zhang and
+               Wenyi Mo and
+               Changwen Zheng and
+               Bing Su and
+               Hui Xiong},
+  title     = {MetaMask: Revisiting Dimensional Confounder for Self-Supervised Learning},
+  journal   = {CoRR}
+  year      = {2022},
+  eprinttype = {arXiv}
+}
+```
